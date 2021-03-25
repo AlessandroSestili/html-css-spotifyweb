@@ -2,17 +2,12 @@
 .bg-white {
     background-color: white;
 }
-.bg-grey {
-    background-color: rgb(243, 245, 249);
-}
-.bg-sky {
-    background-color: rgb(103, 152, 248);
-}
-.bg-blue {
-    background-color: rgb(27, 68, 188);
-}
+
 .bg-red {
     background-color: red;
+}
+.bg-grey {
+    background-color: rgb(40, 40, 40);
 }
 
 /* TEXT-COLOUR  */
@@ -23,19 +18,13 @@
     color: black;
 }
 .text-grey {
-    color: rgb(243, 245, 249);
-}
-.text-dark-grey {
     color: grey;
-}
-.text-sky {
-    color: rgb(103, 152, 248);
-}
-.text-blue {
-    color: rgb(27, 68, 188);
 }
 
 /* BORDER  (1px solid black) */ 
+.border {
+    border: 1px solid white;
+}
 .border-left {
     border-left: 1px solid black;
 }
@@ -603,4 +592,12 @@
 }
 .display-inline-block {
     display: inline-block;
+}
+.display-flex {
+    display: flex;
+}
+
+
+.vertical-align {
+    vertical-align: middle;
 }

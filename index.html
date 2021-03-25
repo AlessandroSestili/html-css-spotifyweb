@@ -4,9 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- bootstrap v.3   -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- fontawesome  -->
+    <script src="https://use.fontawesome.com/faebb6ae54.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility-class.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Spotify</title>
 </head>
 <body>
     
+    
+
+    <!-- MAIN CONTENT  -->
+    <section class="main-content">
+
+        <div class="left-aside"></div>
+
+        <div class="right-content"></div>
+        
+    </section>
+
+    <!-- BOTTOM-BAR  -->
+    <section class="bottom-bar display-flex bg-grey text-white">
+
+        <!-- left-side  -->
+        <ul class="bottom-bar-left-side display-flex">
+
+            <li class="bottom-bar-left-side-img-container">
+                <img src="img/sinister.jpeg" alt="sinister-album" class="img-container">
+            </li>
+
+            <li class="bottom-bar-left-side-text-container margin-right-20">
+                <h5 class="margin-top-0 margin-bottom-0">Sinister</h5>
+
+                <p class="margin-bottom-0 text-grey"><small>Brano Nome</small></p>
+            </li>
+
+            <li class="bottom-bar-left-side-hearth-container">
+                <span class="glyphicon glyphicon-heart-empty text-grey"></span>
+            </li>
+
+            <li class="bottom-bar-left-side-folder-container">
+                <span class="glyphicon glyphicon-folder-open text-grey"></span>
+            </li>
+
+        </ul>
+
+        <!-- central side  -->
+        <ul class="bottom-bar-central-side display-flex">
+
+            <li class="bottom-bar-central-side-play">
+
+                <ul class="display-flex play-bar">
+
+                    <li><span class="glyphicon glyphicon-random"></span></li> 
+
+                    <li><span class="glyphicon glyphicon-step-backward"></span></li> 
+
+                    <li><span class="glyphicon glyphicon-play-circle"></span></li> 
+
+                    <li><span class="glyphicon glyphicon-step-forward"></span></li> 
+
+                    <li><span class="glyphicon glyphicon-repeat"></span></li> 
+
+                </ul>
+
+
+                <ul class="display-flex loading-bar">
+
+                    <li><span><small>0:25</small></span></li>
+
+                    <li class="progress">
+
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+
+                    </li>
+
+                    <li><small>4:20</small></li>
+
+                </ul>
+
+            </li>
+
+        </ul>
+
+        <!-- right side  -->
+        <ul class="bottom-bar-right-side display-flex">
+
+            <li>
+                <span class="glyphicon glyphicon-list"></span>
+            </li>
+
+            <li>
+                <span class="glyphicon glyphicon-phone"></span>
+            </li>
+
+            <li>
+                <span class="glyphicon glyphicon-volume-up"></span>
+            </li>
+
+            <li class="progress loading-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                    <span class="sr-only">60% Complete</span>
+                </div>
+            </li>
+
+        </ul>
+
+    </section>
+
+
+
 </body>
 </html>

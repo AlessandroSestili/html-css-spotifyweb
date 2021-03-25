@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* BOTTOM-BAR  */
+.bottom-bar {
+    height: 100px;
+    padding: 0px 10px;
+
+    justify-content: space-between;
+}
+
+/* bottom-bar-*-side  */
+.bottom-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    align-items: center;
+}
+.bottom-bar-left-side li , .bottom-bar-right-side li , .bottom-bar-central-side ul li {
+    padding: 0 5px;
+}
+
+/* .bottom-bar-left-side  */
+.bottom-bar-left-side-img-container img {
+    width: 50px;
+}
+
+/* central side  */
+.bottom-bar-central-side li.progress{
+    width: 350px;
+    height: 3px;
+    padding:0;
+    margin: 0 10px;
+}
+.bottom-bar-central-side .play-bar {
+    justify-content: center;
+}
+.bottom-bar-central-side .play-bar li {
+    padding: 0 10px;
+}
+.bottom-bar-central-side .play-bar .glyphicon-play-circle {
+    font-size: 30px;
+}
+.bottom-bar-central-side .loading-bar {
+    align-items: baseline;
+}
+.loading-bar .progress-bar-success {
+    background-color: grey;
+}
+
+/* right side  */
+.bottom-bar-right-side li.progress{
+    width: 110px;
+    height: 3px;
+    padding:0;
+    margin: 0 10px;
+}
+
+/* MAIN CONTENT  */
+.main-content {
+    height: calc(100vh - 100px);
+}
+
+
+
+
+
