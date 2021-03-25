@@ -77,9 +77,39 @@ body {
 .left-aside > * {
     padding-top: 10px;
 }
+.left-aside > * > * {
+    padding:5px 0;
+}
 .logo-spotify img {
     width: 120px;
 }
+.home-bar li span.glyphicon {
+    font-size: 20px;
+}
+.playlist-bar {
+    flex-grow: 1;
+
+    overflow: auto;
+}
+.playlist-bar span.glyphicon-plus {
+    width: 35px;
+    line-height: 35px;
+}
+.profile-bar span.hr {
+    background-color: rgb(23, 100, 37);
+
+    border-bottom:1px solid grey;
+    padding:0;
+    width: 160px;
+    display: inline-block;
+}
+
+.home-bar li a{
+    line-height: 20px;
+}
+
+
+
 
 /* right-content  */
 .main-content .right-content {
