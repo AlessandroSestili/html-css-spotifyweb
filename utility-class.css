@@ -23,7 +23,7 @@
 
 /* BORDER  (1px solid black) */ 
 .border {
-    border: 1px solid white;
+    border: 1px solid black;
 }
 .border-left {
     border-left: 1px solid black;
@@ -597,7 +597,12 @@
     display: flex;
 }
 
-
+/* .vertical-align  */
 .vertical-align {
     vertical-align: middle;
+}
+
+/* ul  */
+ul {
+    list-style: none;
 }

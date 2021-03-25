@@ -3,6 +3,7 @@ body {
     flex-direction: column;
 }
 
+
 /* BOTTOM-BAR  */
 .bottom-bar {
     height: 100px;
@@ -59,9 +60,39 @@ body {
     margin: 0 10px;
 }
 
+
 /* MAIN CONTENT  */
 .main-content {
     height: calc(100vh - 100px);
+}
+
+/* left-aside  */
+.main-content .left-aside {
+    flex-direction: column;
+
+    width: 220px;
+
+    background-color: rgb(1, 0, 0);
+}
+.left-aside > * {
+    padding-top: 10px;
+}
+.logo-spotify img {
+    width: 120px;
+}
+
+/* right-content  */
+.main-content .right-content {
+    height: 100%;
+
+    background-color: rgb(22, 25, 33);
+}
+/* right-content-top-bar  */
+.right-content .top-bar {
+    width: 100%;
+    height: 80px;
+
+    background-color: rgb(9, 11, 18);
 }
 
 
