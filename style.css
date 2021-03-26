@@ -157,7 +157,11 @@ body {
     padding-left: 15px;
 
     overflow: auto;
-    height: 100%;
+    height: calc(100% - 80px);
+}
+.top-nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .content .top-nav ul a{
     color: grey;
@@ -181,3 +185,12 @@ body {
 }
 
 /* second row of album  */
+
+
+
+
+
+.top-nav ul {
+    flex-wrap: wrap;
+
+}
