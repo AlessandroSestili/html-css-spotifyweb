@@ -107,32 +107,45 @@ body {
     width: 35px;
     line-height: 35px;
 }
+.profile-bar .glyphicon.glyphicon-user {
+    font-size: 10px;
+    text-align: center;
+}
+.profile-bar span.glyphicon.glyphicon-user {
+    border-radius: 50%;
+    background-color: gray;
+    width: 15px;
+    line-height: 15px;
+}
 .profile-bar span.hr {
-    background-color: rgb(23, 100, 37);
-
     border-bottom:1px solid grey;
     padding:0;
     width: 160px;
     display: inline-block;
 }
-
 .home-bar li a{
     line-height: 20px;
 }
 
-
-
-
 /* right-content  */
 .main-content .right-content {
     height: 100%;
-
+    width: 100%;
     background-color: rgb(22, 25, 33);
 }
+
 /* right-content-top-bar  */
 .right-content .top-bar {
     width: 100%;
-    height: 80px;
+    height: 70px;
 
     background-color: rgb(9, 11, 18);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-content .top-bar a {
+    background-color: transparent;
+    padding: 10px 40px;
 }
