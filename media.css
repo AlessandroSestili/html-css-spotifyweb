@@ -79,6 +79,10 @@
     .bottom-bar-left-side-img-container img {
         width: 40px;
     }
+
+    .disk-container {
+        flex-basis: calc(100% / 4);
+    }
 }
 
 
