@@ -237,6 +237,36 @@ span.text-grey:hover {
 .img-container:hover{
     opacity: .5;
 }
+.play-circle {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    transform: translate(-60% , -50%);
+    visibility: hidden;
+}
+.play-circle:hover {
+    visibility: visible;
+}
+
+.green-circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    left: 43%;
+    top: 35%;
+    visibility: hidden;
+
+
+    
+}
+
+.green-circle:hover {
+    visibility: visible;
+}
+
 
 
 
