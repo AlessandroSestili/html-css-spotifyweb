@@ -63,6 +63,9 @@
         font-size: 80%;
     }
 
+    .top-nav ul {
+        padding-left: 0;
+    }
 
     .disk-container {
         flex-basis: calc(100% / 2);
@@ -98,6 +101,11 @@
     /* home bar  */
     .home-bar {
         padding-left: 40px;
+    }
+
+    /* titoli contenuto centrale  */
+    .top-nav ul {
+        padding-left: 0;
     }
 }
 

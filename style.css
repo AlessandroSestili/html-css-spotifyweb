@@ -257,14 +257,19 @@ span.text-grey:hover {
     height: 10px;
     border-radius: 50%;
     background-color: white;
-    left: 43%;
-    top: 40%;
-    display: none;
+    left: 95%;
+    transform: translateY(-4px);
+    visibility: hidden;
+
+}
+.loading-bar .progress {
+    overflow: visible;
 }
 
-.progress:hover + span.green-circle{
-    display: block;
+.green-circle:hover {
+    visibility: visible;
 }
+
 
 
 
