@@ -94,6 +94,21 @@
     .disk-container {
         flex-basis: calc(100% / 4);
     }
+
+    /* home bar  */
+    .home-bar {
+        padding-left: 40px;
+    }
+}
+
+
+/* VISUALIZZAZIONE LG +  */
+@media screen and (min-width: 993px) {
+
+
+    .home-bar {
+        padding-left: 40px;
+    }
 }
 
 

@@ -140,7 +140,7 @@ body {
 }
 .right-content .top-bar a {
     background-color: transparent;
-    padding: 10px 40px;
+    padding: 8px 40px;
 }
 
 /* right-content  */
@@ -190,7 +190,41 @@ body {
 
 
 
-.top-nav ul {
-    flex-wrap: wrap;
+
+
+
+/* TESTI HOVER MAIN CONTENT  */
+.content .top-nav ul a:hover {
+    color: white;
 
 }
+
+/* HOVER  */
+a:hover {
+    text-decoration: none;
+}
+
+a.text-grey:hover {
+    color: white;
+}
+span.text-grey:hover {
+    color: white;
+}
+
+
+
+/* hover button  */
+.right-content .top-bar a:hover {
+    padding: 10px 45px;
+    color: white;
+}
+
+
+/* hover bottom-bar  */
+.bottom-bar-left-side-text-container p small:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
