@@ -27,6 +27,10 @@ body {
 }
 
 /* .bottom-bar-left-side  */
+.bottom-bar-left-side-folder-container {
+    display: flex;
+    flex-direction: column;
+}
 .bottom-bar-left-side-img-container img {
     width: 50px;
 }
@@ -225,6 +229,15 @@ span.text-grey:hover {
     color: white;
     text-decoration: underline;
 }
+.loading-bar .progress-bar-success:hover {
+    background-color: rgb(199, 238, 121);
+}
+
+/* hover img  */
+.img-container:hover{
+    opacity: .5;
+}
+
 
 
 
