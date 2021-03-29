@@ -245,26 +245,25 @@ span.text-grey:hover {
     transform: translate(-60% , -50%);
     visibility: hidden;
 }
-.play-circle:hover {
+.img-container:hover + .play-circle{
     visibility: visible;
 }
 
+
+/* hover green circle loading bar  */
 .green-circle {
     position: absolute;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: red;
+    background-color: white;
     left: 43%;
-    top: 35%;
-    visibility: hidden;
-
-
-    
+    top: 40%;
+    display: none;
 }
 
-.green-circle:hover {
-    visibility: visible;
+.progress:hover + span.green-circle{
+    display: block;
 }
 
 
