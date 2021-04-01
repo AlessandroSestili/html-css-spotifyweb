@@ -186,8 +186,13 @@ body {
 }
 .disk-container {
     flex-basis: calc(100% / 6);
-}
 
+    text-align: center;
+}
+.disk-container img {
+    padding: 0%;
+    margin-top: 10px;
+}
 /* second row of album  */
 
 
@@ -266,7 +271,7 @@ span.text-grey:hover {
     overflow: visible;
 }
 
-.green-circle:hover {
+.progress .progress-bar.progress-bar-success:hover + .green-circle {
     visibility: visible;
 }
 
