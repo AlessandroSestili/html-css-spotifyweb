@@ -50,6 +50,7 @@ body {
     height: 3px;
     padding:0;
     margin: 0 10px;
+    overflow: visible;
 }
 .bottom-bar-central-side .play-bar {
     justify-content: center;
@@ -266,12 +267,9 @@ span.text-grey:hover {
     transform: translateY(-4px);
     visibility: hidden;
 
-}
-.loading-bar .progress {
-    overflow: visible;
-}
 
-.progress .progress-bar.progress-bar-success:hover + .green-circle {
+}
+ul.display-flex.loading-bar.position-relative:hover .green-circle {
     visibility: visible;
 }
 
